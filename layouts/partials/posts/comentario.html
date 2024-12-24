@@ -1,0 +1,4 @@
+{{- if and (isset .Site.Params "comentariourl") (not (eq .Site.Params.comentarioURL "" )) (eq (.Params.disableComments | default false) false) -}}
+<script defer src="https://comentarios.cybernetus.com/comentario.js"></script>
+<comentario-comments></comentario-comments>
+{{- end -}}

@@ -10,6 +10,7 @@
       - [Telegram](#telegram)
       - [Cusdis](#cusdis)
       - [Mastodon](#mastodon)
+      - [Comentario](#comentario)
   - [Syntax Highlight](#syntax-highlight)
   - [Theme Parameters](#theme-parameters)
     - [Social Icons Configuration](#social-icons-configuration)
@@ -107,6 +108,14 @@ Follow [these steps](https://gohugo.io/content-management/comments/#configure-di
   statusID = "" # ID os the status (post) that comments should be related
   purifyCDN = "" # CDN address of pointing to a Purify package
 
+```
+
+#### Comentario 
+
+```toml
+[params]
+  comentarioURL = "https://yourdomain.com" # Replace yourdomain.com with the domain or subdomain of your comentario instance 
+  
 ```
 
 ## Syntax Highlight
